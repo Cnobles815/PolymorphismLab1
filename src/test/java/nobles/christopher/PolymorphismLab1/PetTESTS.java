@@ -18,7 +18,7 @@ public class PetTESTS {
     @Test
     public void getPetTypeTEST(){
         Pet pet = new Pet("Jack", "Rat");
-        String expectedValue = "Jack";
+        String expectedValue = "Rat";
         String actualValue = pet.getPetType();
         assertEquals("The value should be Rat", expectedValue, actualValue);
     }

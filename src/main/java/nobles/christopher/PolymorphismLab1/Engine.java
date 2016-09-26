@@ -46,7 +46,7 @@ public class Engine {
 
     public void displayPetList(){
         for (int i = 0; i < petNumber; i++) {
-            display.printString("\n"+pet.petsList.get(i).getPetName() + " " + pet.petsList.get(i).getPetType() + " " );
+            display.printString(pet.petsList.get(i).getPetName() + " " + pet.petsList.get(i).getPetType() + " " );
         }
     }
 }
