@@ -6,27 +6,42 @@ package nobles.christopher.PolymorphismLab1;
 public class Engine {
     UserInput userInput = new UserInput();
     Display display = new Display();
+    Pet pet;
+
+    static int petNumber = 0;
+    static int entryNum = 1;
+
 
     public void inputPetNumber(){
-        display.printString("Hello user." +
-                "\nHow many pets do you have?");
+        display.printString("How many pets do you have?");
         int pets = userInput.promptInt();
-        display.printString("I see. You have " + pets + "pets." +
+        display.printString("I see. You have " + pets + " pets." +
                 "\nIs that correct?" +
                 "\n[[Y/N]]");
         String confirm = userInput.promptString().toUpperCase();
-        if (confirm == "Y"){
-            inputPetTypes();
-        }
+        if (confirm.equals("Y")){
+            petNumber = pets;
+            inputPetTypes();}
         else{
-            display.printString("That isn't correct? How many pets do you have?");
+            display.printString("That isn't correct?");
             inputPetNumber();}
 
 
     }
 
     public void inputPetTypes(){
-        display.printString("Specify pet type.");
+        display.printString("Describe pet " + entryNum +
+                "\n[[Name, Type]]");
+        String name = userInput.promptString();
+        String type = userInput.promptString();
+        pet = new Pet(name, type);
+        entryNum++;
+        pet.addPetsToList(pet);
+        if (entryNum <= petNumber){
+            inputPetTypes();
+        }
 
     }
+
+
 }
