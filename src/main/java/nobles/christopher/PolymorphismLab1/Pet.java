@@ -1,5 +1,4 @@
 package nobles.christopher.PolymorphismLab1;
-import java.util.List;
 import java.util.ArrayList;
 
 /**
@@ -8,22 +7,28 @@ import java.util.ArrayList;
 public  class Pet {
 
     int petNumber = 0;
-    String petType = "";
-    String petName = "";
+     String petType = "";
+     String petName = "";
 
-    public Pet (String name, String type){
-        this.petName = name;
-        this.petType = type;
+    public  Pet (String name, String type){
+        final String naName = name;
+        final String tyType = type;
+        this.petName = naName;
+        this.petType = tyType;
+    }
+
+    public Pet (){
+
     }
 
 
 
 
 
-    static ArrayList<Pet> pets = new ArrayList<Pet>();
+    static ArrayList<Pet> petsList = new ArrayList<Pet>();
 
     public Pet addPetsToList(Pet pet){
-        pets.add(pet);
+        petsList.add(pet);
         return pet;
     }
 
@@ -32,8 +37,21 @@ public  class Pet {
     }
 
     public String getPetName(){
-        return this.petType;
+        return this.petName;
     }
+
+    public void setPetName(String newName){
+        this.petName = newName;
+    }
+
+    public void setPetType(String newType){
+        this.petType = newType;
+    }
+
+    public String speak(){
+        return "noise";
+    }
+
 
 
     //List<Pet> petList;

@@ -14,6 +14,11 @@ public class UserInput {
         return output;
     }
 
+//    public String promptString2(){
+//        String output = userInput1.next();
+//        return output;
+//    }
+
     public int promptInt() {
         int output = userInput1.nextInt();
         return output;

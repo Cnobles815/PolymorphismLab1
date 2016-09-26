@@ -30,20 +30,23 @@ public class Engine {
     }
 
     public void inputPetTypes(){
-        display.printString("Describe pet " + entryNum +
-                "\n[[Name, Type]]");
-        String name = userInput.promptString();
-        String type = userInput.promptString();
-        pet = new Pet(name, type);
-        entryNum++;
+        display.printString("Give pet " + entryNum +
+                "'s name and type.");
+        pet = new Pet(userInput.promptString(), userInput.promptString());
         pet.addPetsToList(pet);
+        //display.printString(pet.petsList.get(0).getPetName() + pet.petsList.get(0).getPetType());
+        entryNum++;
+
         if (entryNum <= petNumber){
             inputPetTypes();
         }
-
+        else
+            displayPetList();
     }
 
     public void displayPetList(){
-        display.printString(pet);
+        for (int i = 0; i < petNumber; i++) {
+            display.printString("\n"+pet.petsList.get(i).getPetName() + " " + pet.petsList.get(i).getPetType() + " " + pet.petsList.get(i).getClass());
+        }
     }
 }
