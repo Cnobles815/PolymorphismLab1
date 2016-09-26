@@ -43,5 +43,7 @@ public class Engine {
 
     }
 
-
+    public void displayPetList(){
+        display.printString(pet);
+    }
 }

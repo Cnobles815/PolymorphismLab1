@@ -27,6 +27,14 @@ public  class Pet {
         return pet;
     }
 
+    public String getPetType(){
+        return this.petType;
+    }
+
+    public String getPetName(){
+        return this.petType;
+    }
+
 
     //List<Pet> petList;
 
