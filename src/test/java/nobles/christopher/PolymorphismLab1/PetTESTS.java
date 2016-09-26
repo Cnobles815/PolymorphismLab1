@@ -22,5 +22,13 @@ public class PetTESTS {
         String actualValue = pet.getPetType();
         assertEquals("The value should be Rat", expectedValue, actualValue);
     }
-    
+
+    @Test
+    public void speakTEST(){
+        Pet pet = new Pet("Jack", "Rat");
+        String expectedValue = "Noise";
+        String actualValue = pet.speak();
+        assertEquals("The value should be Noise", expectedValue, actualValue);
+    }
+
 }

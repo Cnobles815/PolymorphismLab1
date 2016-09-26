@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a0e15a-33bd-445f-a370-351cf2de9bb6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nobles/christopher/PolymorphismLab1/User.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nobles/christopher/PolymorphismLab1/Cat.class" afterPath="$PROJECT_DIR$/target/classes/nobles/christopher/PolymorphismLab1/Cat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nobles/christopher/PolymorphismLab1/Dog.class" afterPath="$PROJECT_DIR$/target/classes/nobles/christopher/PolymorphismLab1/Dog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nobles/christopher/PolymorphismLab1/Engine.class" afterPath="$PROJECT_DIR$/target/classes/nobles/christopher/PolymorphismLab1/Engine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nobles/christopher/PolymorphismLab1/Turtle.class" afterPath="$PROJECT_DIR$/target/classes/nobles/christopher/PolymorphismLab1/Turtle.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/CatTESTS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/DogTESTS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/TurtleTESTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nobles/christopher/PolymorphismLab1/Pet.class" afterPath="$PROJECT_DIR$/target/classes/nobles/christopher/PolymorphismLab1/Pet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/nobles/christopher/PolymorphismLab1/PetTESTS.class" afterPath="$PROJECT_DIR$/target/test-classes/nobles/christopher/PolymorphismLab1/PetTESTS.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolymorphismLab1.iml" afterPath="$PROJECT_DIR$/PolymorphismLab1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Cat.java" afterPath="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Cat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Dog.java" afterPath="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Dog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Turtle.java" afterPath="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Turtle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Pet.java" afterPath="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Pet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/PetTESTS.java" afterPath="$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/PetTESTS.java" />
     </list>
     <ignored path="PolymorphismLab1.iws" />
@@ -40,16 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DisplayTESTS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/DisplayTESTS.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PetTESTS.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PetTESTS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/PetTESTS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="114">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,34 +57,19 @@
       <file leaf-file-name="Pet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Pet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="329">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Display.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Display.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -133,12 +100,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Turtle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Turtle.java">
+      <file leaf-file-name="CatTESTS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/CatTESTS.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding />
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="2" selection-end-line="14" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DogTESTS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/DogTESTS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="2" selection-end-line="14" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,6 +130,18 @@
             <state relative-caret-position="75">
               <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TurtleTESTS.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/TurtleTESTS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="2" selection-end-line="15" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,13 +172,16 @@
         <option value="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/UserInput.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Pet.java" />
         <option value="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Engine.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Cat.java" />
         <option value="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Dog.java" />
         <option value="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Turtle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Pet.java" />
         <option value="$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/PetTESTS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/CatTESTS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/DogTESTS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/TurtleTESTS.java" />
       </list>
     </option>
   </component>
@@ -339,7 +335,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.PetTESTS.getPetNameTEST">
+  <component name="RunManager" selected="JUnit.CatTESTS.catSpeakTEST">
     <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -373,6 +369,58 @@
       <option name="PACKAGE_NAME" value="nobles.christopher.PolymorphismLab1" />
       <option name="MAIN_CLASS_NAME" value="nobles.christopher.PolymorphismLab1.PetTESTS" />
       <option name="METHOD_NAME" value="getPetNameTEST" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TurtleTESTS.turtleSpeakTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="nobles.christopher.PolymorphismLab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PolymorphismLab1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="nobles.christopher.PolymorphismLab1" />
+      <option name="MAIN_CLASS_NAME" value="nobles.christopher.PolymorphismLab1.TurtleTESTS" />
+      <option name="METHOD_NAME" value="turtleSpeakTEST" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CatTESTS.catSpeakTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="nobles.christopher.PolymorphismLab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PolymorphismLab1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="nobles.christopher.PolymorphismLab1" />
+      <option name="MAIN_CLASS_NAME" value="nobles.christopher.PolymorphismLab1.CatTESTS" />
+      <option name="METHOD_NAME" value="catSpeakTEST" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -793,14 +841,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.App" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.PetTESTS.getPetNameTEST" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TurtleTESTS.turtleSpeakTEST" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CatTESTS.catSpeakTEST" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PetTESTS.getPetNameTEST" />
-        <item index="1" class="java.lang.String" itemvalue="Application.App" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CatTESTS.catSpeakTEST" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TurtleTESTS.turtleSpeakTEST" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PetTESTS.getPetNameTEST" />
+        <item index="3" class="java.lang.String" itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -814,17 +866,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474917054208</updated>
-      <workItem from="1474917055836" duration="9524000" />
+      <workItem from="1474917055836" duration="10184000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="CatTESTS_catSpeakTEST - 2016.09.26 at 18h 00m 53s.xml">
+      <configuration name="CatTESTS.catSpeakTEST" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="PetTESTS_getPetNameTEST - 2016.09.26 at 17h 48m 25s.xml">
       <configuration name="PetTESTS.getPetNameTEST" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TurtleTESTS_turtleSpeakTEST - 2016.09.26 at 18h 00m 14s.xml">
+      <configuration name="TurtleTESTS.turtleSpeakTEST" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9524000" />
+    <option name="totallyTimeSpent" value="10184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -895,14 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/UserInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -915,14 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/UserInputTESTS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -956,28 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Turtle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -996,16 +1016,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Pet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nobles/christopher/PolymorphismLab1/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/PetTESTS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/UserInputTESTS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/CatTESTS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="2" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/DogTESTS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="2" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nobles/christopher/PolymorphismLab1/TurtleTESTS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="2" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

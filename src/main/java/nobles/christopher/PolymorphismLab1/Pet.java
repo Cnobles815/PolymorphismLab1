@@ -49,7 +49,7 @@ public  class Pet {
     }
 
     public String speak(){
-        return "noise";
+        return "Noise";
     }
 
 
